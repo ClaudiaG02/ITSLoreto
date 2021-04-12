@@ -127,6 +127,13 @@ mostrar{
     margin-bottom: auto;
 
 }
+.info__columna_isc{
+    background: #008080;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 60px;
+
+}
 /*banner Animacion*/
 .bannerAnimation{
     width: 150px;
@@ -223,19 +230,35 @@ mostrar{
     .banner__txt{
         display: block;
         font-size: 18px;
-        margin: 7px 0;
+        margin: 3px 0;
     }
     .info, .cursos{
         display: flex;
         justify-content: space-between;
         margin-top: -90px;
     }
+    .info_isc{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 190px;
+
+    }
     .info__columna{
-        width: 52%;
+        width: 100%;
+        margin-top: 90px;
+    }
+    .info__columna_isc{
+        width: 32%;
+        margin-top: 250px;
     }
     .info__titulo{
         font-size: 30px;
         margin: 5px 0;
+    }
+    .info__titulo_isc{
+        font-size: 20px;
+        margin: 40px 0;
+        margin-top: 30px;
     }
    
     .section__titulo{
@@ -301,6 +324,10 @@ mostrar{
         margin-top: -120px;
         
     }
+    .info_isc{
+        margin-top: -130px;
+        
+    }
     .bannerAnim{
         margin-right: 12px;
 
@@ -311,6 +338,15 @@ mostrar{
       
       }
     .info__titulo{
+        font-size: 40px;
+        text-align: center;
+    }
+    .info__columna_isc {
+        padding: 50px;
+       
+      
+      }
+    .info__titulo_isc{
         font-size: 40px;
         text-align: center;
     }
@@ -340,6 +376,10 @@ mostrar{
     }
     .info{
         margin-top: -220px;
+
+    }
+    .info_isc{
+        margin-top: -210px;
 
     }
 }
